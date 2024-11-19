@@ -1,0 +1,56 @@
+
+body{
+    background-color: aqua;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0%;
+}
+form{
+    background-color: aliceblue;
+    width: 50%;
+    max-width:500px;
+    border: 1.5px solid black;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="Gmail"],
+input[type="number"],
+input[type="radio"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding:8px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+    border-radius: 5px;
+
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+}
+.gender-option{
+    margin-bottom: 5px;
+}
